@@ -3,11 +3,11 @@
   <remote name="origin" fetch="ssh://git@github.com/ivladak/" />
 
   <remote name="rupa" fetch="ssh://git@github.com/rupa/" />
-  <remote name="vim-scripts" remote="ssh://git@github.com/vim-scripts/" />
-  <remote name="raimondi" remote="ssh://git@github.com/Raimondi/" />
-  <remote name="tpope" remote="ssh://git@github.com/tpope/" />
-  <remote name="kopischke" remote="ssh://git@github.com/kopischke/" />
-  <remote name="alphapapa" remote="ssh://git@github.com/alphapapa/" />
+  <remote name="vim-scripts" fetch="ssh://git@github.com/vim-scripts/" />
+  <remote name="raimondi" fetch="ssh://git@github.com/Raimondi/" />
+  <remote name="tpope" fetch="ssh://git@github.com/tpope/" />
+  <remote name="kopischke" fetch="ssh://git@github.com/kopischke/" />
+  <remote name="alphapapa" fetch="ssh://git@github.com/alphapapa/" />
 
   <default remote="origin" revision="master" />
 
