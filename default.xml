@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+  <remote name="github" fetch="git@github.com:ivladak" />
+  <remote name="rupa" fetch="git@github.com:rupa" />
+
+  <default remote="github" revision="master" />
+
+  <project name=".dotfiles" path="." />
+  <project name="bin" path="bin" />
+  <project name="z" remote="rupa" path="bin/z" />
+</manifest>
