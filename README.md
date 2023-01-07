@@ -10,3 +10,5 @@ repo forall -c 'git checkout $REPO_RREV'
 
 Further information can be found on the official
 [git-repo](https://gerrit.googlesource.com/git-repo) page.
+
+Short link to this readme (raw): https://bit.ly/3VUPV7A
