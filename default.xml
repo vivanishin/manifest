@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
   <remote name="origin" fetch="ssh://git@github.com/ivladak/" />
+
   <remote name="rupa" fetch="ssh://git@github.com/rupa/" />
+  <remote name="vim-scripts" remote="ssh://git@github.com/vim-scripts/" />
+  <remote name="raimondi" remote="ssh://git@github.com/Raimondi/" />
+  <remote name="tpope" remote="ssh://git@github.com/tpope/" />
+  <remote name="kopischke" remote="ssh://git@github.com/kopischke/" />
+  <remote name="alphapapa" remote="ssh://git@github.com/alphapapa/" />
 
   <default remote="origin" revision="master" />
 
   <project name=".dotfiles" path="." />
+  <project name="a.vim" remote="vim-scripts"
+           path=".vim/bundle/a.vim" />
+  <project name="delimitMate" remote="raimondi"
+           path = ".vim/bundle/delimitMate" />
+  <project name="vim-fugitive" remote="tpope"
+           path = ".vim/bundle/vim-fugitive" />
+  <project name="vim-fetch" remote="kopischke"
+           path = ".vim/bundle/vim-fetch" />
+  <project name="solarized-everything-css" remote="alphapapa"
+           path = ".config/qutebrowser/solarized-everything-css" />
   <project name="bin" />
-  <project name="z" remote="rupa" path="bin/z" />
+  <project name="z" remote="rupa"
+           path="bin/z" />
 </manifest>
