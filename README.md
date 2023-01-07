@@ -1,6 +1,5 @@
 This is a manifest for dotfiles and other scripts for quickly making a new
-system like home and managing updates. Note that paths are hardcoded assuming
-the username is `vlad`.
+system like home and managing updates.
 
 ```
 cd
