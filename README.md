@@ -25,8 +25,10 @@ Further information can be found on the official
 
 Short link to this readme (raw): https://bit.ly/3VUPV7A
 
+```
 wget -O- https://raw.githubusercontent.com/ivladak/manifest/main/README.md |
     tee >(cat >&2) |
     sed -n '/```/,/```/ p' |
     grep -v '```' |
     bash -
+```
