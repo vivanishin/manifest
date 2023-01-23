@@ -10,8 +10,10 @@ Host github.com
     IdentityFile ~/.ssh/github
 EOF
 set -xe
-git config --global user.email "foo@bar.com"
-git config --global user.name "Vladislav Ivanishin"
+git config --global user.email ||
+    git config --global user.email "foo@bar.com"
+git config --global user.name ||
+    git config --global user.name "Vladislav Ivanishin"
 cd
 repo init -u git@github.com:ivladak/manifest.git --config-name
 repo sync
