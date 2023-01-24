@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@github.com/ivladak/" />
+  <remote name="origin" fetch="https://github.com/ivladak/" />
   <remote name="kayry" fetch="ssh://kayry/home/vlad/git/" />
 
-  <remote name="rupa" fetch="ssh://git@github.com/rupa/" />
-  <remote name="vim-scripts" fetch="ssh://git@github.com/vim-scripts/" />
-  <remote name="raimondi" fetch="ssh://git@github.com/Raimondi/" />
-  <remote name="tpope" fetch="ssh://git@github.com/tpope/" />
-  <remote name="kopischke" fetch="ssh://git@github.com/kopischke/" />
-  <remote name="alphapapa" fetch="ssh://git@github.com/alphapapa/" />
+  <remote name="rupa" fetch="https://github.com/rupa/" />
+  <remote name="vim-scripts" fetch="https://github.com/vim-scripts/" />
+  <remote name="raimondi" fetch="https://github.com/Raimondi/" />
+  <remote name="tpope" fetch="https://github.com/tpope/" />
+  <remote name="kopischke" fetch="https://github.com/kopischke/" />
+  <remote name="alphapapa" fetch="https://github.com/alphapapa/" />
 
   <default remote="origin" revision="master" />
 
