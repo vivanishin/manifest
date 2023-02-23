@@ -23,8 +23,10 @@
   <project name="vim-fetch" remote="kopischke"
            path = ".vim/pack/plugins/start/vim-fetch" />
 
-  <project name="gnus-init" remote="pi"
-           path = ".emacs.d/lisp/gnus-init" />
+  <project name="priv" remote="pi" path = ".priv">
+    <linkfile src="init-gnus.el" dest=".emacs.d/lisp/init-gnus.el" />
+  </project>
+
 
   <project name="solarized-everything-css" remote="alphapapa"
            path = ".config/qutebrowser/solarized-everything-css" />
