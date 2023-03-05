@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
   <remote name="origin" fetch="ssh://git@github.com/ivladak/" />
-  <remote name="pi" fetch="ssh://pi@pi/home/pi/git/" />
+  <remote name="kayry" fetch="ssh://kayry/home/vlad/git/" />
 
   <remote name="rupa" fetch="ssh://git@github.com/rupa/" />
   <remote name="vim-scripts" fetch="ssh://git@github.com/vim-scripts/" />
@@ -23,7 +23,7 @@
   <project name="vim-fetch" remote="kopischke"
            path = ".vim/pack/plugins/start/vim-fetch" />
 
-  <project name="priv" remote="pi" path = ".priv">
+  <project name="priv" remote="kayry" path = ".priv">
     <linkfile src="init-gnus.el" dest=".emacs.d/lisp/init-gnus.el" />
   </project>
 
