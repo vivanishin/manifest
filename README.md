@@ -30,7 +30,13 @@ Short link to this readme (raw): https://bit.ly/3VUPV7A
 ```
 wget -O- https://raw.githubusercontent.com/ivladak/manifest/main/README.md |
     tee >(cat >&2) |
-    sed -n '/```/,/```/ p' |
-    grep -v '```' |
+    sed -n '
+        /^```/ {
+            h;n
+        }
+        /^set +x/ {
+            H;x;p;n;Q
+        }
+        H' | grep -v '^```' |
     bash -
 ```
