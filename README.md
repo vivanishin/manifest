@@ -15,7 +15,7 @@ git config --global user.email ||
 git config --global user.name ||
     git config --global user.name "Vladislav Ivanishin"
 cd
-repo init -u git@github.com:vivanishin/manifest.git --config-name
+repo init --no-clone-bundle -u git@github.com:vivanishin/manifest.git --config-name
 repo sync
 repo forall -c 'git checkout $REPO_RREV'
 repo init --config-name
