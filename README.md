@@ -15,7 +15,7 @@ git config --global user.email ||
 git config --global user.name ||
     git config --global user.name "Vladislav Ivanishin"
 cd
-repo init -u git@github.com:ivladak/manifest.git --config-name
+repo init -u git@github.com:vivanishin/manifest.git --config-name
 repo sync
 repo forall -c 'git checkout $REPO_RREV'
 repo init --config-name
@@ -28,7 +28,7 @@ Further information can be found on the official
 Short link to this readme (raw): https://bit.ly/3VUPV7A
 
 ```
-wget -O- https://raw.githubusercontent.com/ivladak/manifest/main/README.md |
+wget -O- https://raw.githubusercontent.com/vivanishin/manifest/main/README.md |
     tee >(cat >&2) |
     sed -n '
         /^```/ {
