@@ -3,7 +3,6 @@
   <remote name="origin" fetch="ssh://git@github.com/vivanishin/" />
   <remote name="kayry" fetch="ssh://kayry/home/vlad/git/" />
 
-  <remote name="rupa" fetch="ssh://git@github.com/rupa/" />
   <remote name="vim-scripts" fetch="ssh://git@github.com/vim-scripts/" />
   <remote name="raimondi" fetch="ssh://git@github.com/Raimondi/" />
   <remote name="tpope" fetch="ssh://git@github.com/tpope/" />
