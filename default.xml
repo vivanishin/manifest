@@ -32,6 +32,4 @@
            path = ".config/qutebrowser/solarized-everything-css" />
 
   <project name="bin" />
-  <project name="z" remote="rupa"
-           path="bin/z" />
 </manifest>
